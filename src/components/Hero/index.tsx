@@ -1,13 +1,15 @@
-import styles from './Hero.module.css'
+import React from 'react';
+import { Title,Container, HeroImg } from "./styles"
 
 const Hero = () => (
-  <form className={styles.form}>
-    <div className="container">
-      <h2 className={styles.heroTitle}>
+  // eslint-disable-next-line react/react-in-jsx-scope, react/jsx-no-comment-textnodes
+  <HeroImg>
+    <Container>
+      <Title>
         As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
-    </div>
-  </form>
+      </Title>
+    </Container>
+  </HeroImg>
 )
 
 export default Hero

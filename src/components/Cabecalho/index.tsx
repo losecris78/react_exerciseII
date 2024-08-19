@@ -1,9 +1,13 @@
-import styles from './Cabecalho.module.css'
+import { Cabecalho } from "./styles"
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
 
-export default Cabecalho
+const Header = () => (
+// eslint-disable-next-line react/react-in-jsx-scope
+<Cabecalho>
+  <h1>EBAC Jobs</h1>
+</Cabecalho>);
+
+
+
+
+export default Header
